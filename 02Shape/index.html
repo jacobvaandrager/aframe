@@ -10,12 +10,44 @@
   <body>
     <a-scene background="color: #333333">
       <a-box id="myBox"
-        width="3"
+        width="2"
         height="2"
-        depth="1"
-        color="#BBAA33" 
+        depth="2"
+        color="#3D5A80" 
+        position="0, 1, -5"
+        rotation="10,20,0"
         shadow>
       </a-box>
+
+      <a-dodecahedron id="myDoc"
+        width="1"
+        height="6"
+        depth="2"
+        color="#F6511D" 
+        position="1, 2, -3"
+        rotation="10,20,0"
+        shadow>
+      </a-dodecahedron>
+
+      <a-ring id="myRing"
+        width="3"
+        height="5"
+        depth="2"
+        color="#7FB800" 
+        position="-6, 2, -6"
+        rotation="10,20,0"
+        shadow>
+      </a-ring>
+
+      <a-plane id="myPlane"
+        width="1000"
+        height="1000"
+      depth="1"
+      rotation="2,0,0"
+      color="#FFF1D0"
+      position="10, 0, -100"
+    </a-plane>
+
     </a-scene>
   </body>
 </html>
